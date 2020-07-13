@@ -1,0 +1,53 @@
+.more__banking .banking {
+  background-color: #e4e4e4;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.banking .banking__column:nth-child(1) {
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 7px 17px;
+  border-radius: 30px;
+}
+
+.banking .banking__column:nth-child(1) span:nth-child(1) {
+  font-weight: 600;
+}
+
+.banking__column:nth-child(2) span {
+  padding: 0px 5px;
+}
+
+.banking__column:nth-child(2) span:nth-child(2) {
+  border-left: 1px solid #d8d8d8;
+}
+
+.more__service {
+  width: 100%;
+}
+
+.more__service .more__service-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.more__service-list .service-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  cursor: pointer;
+}
+
+.more__service-list .service-btn .service-btn__icon {
+  margin-bottom: 10px;
+}
