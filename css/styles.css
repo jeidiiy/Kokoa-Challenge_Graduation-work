@@ -2,10 +2,12 @@
 @import "./reset.css";
 @import "./status-bar.css";
 @import "./nav-bar.css";
+@import "./hedaer.css";
 
 * {
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
   color: inherit;
