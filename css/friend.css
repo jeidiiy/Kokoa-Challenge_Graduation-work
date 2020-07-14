@@ -19,14 +19,52 @@
   width: 60px;
 }
 
+.friend .s-avatar {
+  width: 24px;
+  margin: 0;
+  padding: 0;
+}
+
 .friend__content {
   display: flex;
   flex-direction: column;
 }
 
+.friend__avatars {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin-right: 15px;
+}
+
 .friend .friend__column {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
+  position: relative;
+  height: 60px;
+}
+
+.friend .friend__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.friend__column .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend .chat__unread-chat {
+  background-color: #ff0000;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 8px;
 }
 
 .friend__content .friend__name {
