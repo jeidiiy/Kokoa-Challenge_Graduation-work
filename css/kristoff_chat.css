@@ -1,0 +1,11 @@
+.chat__messages .incoming-message:nth-child(5) .message__avatar {
+  opacity: 0;
+}
+
+.chat__messages .incoming-message:nth-child(6) .message__avatar {
+  opacity: 0;
+}
+
+.chat__messages .incoming-message:nth-child(7) .message__avatar {
+  opacity: 0;
+}
